@@ -1,0 +1,234 @@
+body {
+    direction: rtl;
+    background-color: antiquewhite;
+}
+
+.container {
+    margin: 0px auto;
+    width: 960px;
+    height: 590px;
+}
+
+/*h2, p:first-child, a, li {
+    font-family: Tahoma;
+    line-height: 3;
+    color: #114b5f;
+}*/
+
+/*footer*/
+
+footer {
+    clear: both;
+    width: 870px;
+    height: 40px;
+    background-color: #c6dabf;
+    padding: 15px;
+    position: absolute;
+    top: 540px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+}
+    footer p {
+        margin: 15px;
+        font-family: Tahoma;
+        color: #114b5f;
+        float: right;
+    }
+
+audio {
+    POSITION: absolute;
+    BOTTOM: 7PX;
+    LEFT: 30PX;
+}
+
+
+/*end of footer*/
+
+
+header {
+    margin-top: 30px;
+}
+
+h1 {
+    width: 170px;
+    float: right;
+    color: #88d498;
+    font-size: xx-large;
+    margin: -10px 40px;
+    LETTER-SPACING: 1PX;
+}
+
+    h1 span:first-child {
+        padding-right: 60px;
+        font-family: Agency FB;
+    }
+
+    h1 span:last-child {
+        text-decoration: underline;
+        font-family: Agency FB;
+    }
+
+
+nav ul li {
+    display: inline-block;
+    float: right;
+}
+
+
+.navBG {
+    width: 620px;
+    float: right;
+    background-color: #88d498;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+}
+
+nav, ul, li, li a {
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    font-family: Tahoma;
+    line-height: 3;
+    color: #114b5f;
+}
+
+
+    nav ul li a {
+        display: block;
+        background-color: #88d498;
+        color: white;
+        width: 150px;
+        height: 50px;
+        padding-top: 5px;
+        text-decoration: none;
+        text-align: center;
+        
+         }
+
+        nav ul li a:hover {
+            background-color: palegreen;
+        }
+
+        nav ul li a:active {
+            background-color: lightseagreen;
+        }
+
+.here {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 150px;
+    border-right: 10px solid #114b5f;
+    border-left: 10px solid #114b5f;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    color: #114b5f;
+}
+
+
+
+/*end of the header*/
+
+/*body - of the home, third and fourth pages.*/
+h2 {
+    clear: both;
+    margin: 15px 30px;
+    font-family: tahoma;
+    color: #114b5f;
+    font-size: larger;
+}
+
+.intro, .third {
+    background-color: palegreen;
+    width: 840px;
+    height: 350px;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+    margin: 30px auto;
+    padding: 30PX;
+    float: right;
+
+}
+
+    .intro img, .intro p {
+        width: 400px;
+        height: 300px;
+        float: right;
+    }
+
+
+    .intro p {
+        width: 400px;
+        height: 300px;
+        float: right;
+        padding: 50px 0px 50px 30px;
+        font-family: Tahoma;
+        line-height: 2;
+        
+        color: #114b5f;
+    }
+
+ 
+
+/*end of home page body*/
+
+
+
+/*second page*/
+
+.visualComm .pic {
+    width: 250px;
+    height: 280px;
+    background-color: white;
+    float: right;
+    padding: 10px;
+    margin: 0px 15px;
+}
+
+.visualComm img {
+    width: 215px;
+    height: 210px;
+    margin: 15px 15px 0px 15px;
+}
+
+
+.visualComm .pic p {
+    font-family: tahoma;
+    text-align: center;
+    margin-top: 5px;
+    color: #114b5f;
+}
+
+
+.visualComm div:first-child {
+    float: right;
+    background-color: palegreen;
+    width: 870px;
+    margin: 20px 0px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+    
+}
+
+    .visualComm div:first-child p {
+color: #114b5f;
+    font-family: tahoma;
+    }
+    /*end of second page*/
+    .third p {
+        width: 300px;
+        height: 300px;
+        float: right;
+        padding: 50px 0px 50px 30px;
+        font-family: Tahoma;
+        line-height: 2;
+        color: #114b5f;
+    }
+
+    .audio {
+        /*clear:both;
+        float:right;*/
+    }
