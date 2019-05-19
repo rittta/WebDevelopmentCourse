@@ -6,7 +6,6 @@ body {
 #container {
     width: 1080px;
     margin: 0px auto;
-    
 }
 
 
@@ -33,14 +32,12 @@ h1 span {
 header p, header a {
     font-size: x-large;
     margin: 15px auto;
-    /*text-align: center;*/
 }
 
 
 .headerBottom {
     margin-top: 80px;
     padding: 0px 0px;
-    
 }
 
     .headerBottom p, .headerBottom a {
@@ -109,8 +106,6 @@ b {
 }
 
 .youTube {
-
-position: absolute;
-right: 350px;
-
+margin-right: 25%;
+margin-bottom:30px;
 }
