@@ -1,0 +1,116 @@
+body {
+    direction: rtl;
+    background-color: #CDCFBE;
+}
+
+#container {
+    width: 1080px;
+    margin: 0px auto;
+    
+}
+
+
+header {
+    margin: 30px 0px;
+    width: 555px;
+    float: right;
+}
+
+#logo {
+    height:70px;
+    width: 120px;
+}
+
+h1, h2 {
+    font-size: 45px;
+}
+
+h1 span {
+    display:block;
+    font-size: 70px;
+}
+
+header p, header a {
+    font-size: x-large;
+    margin: 15px auto;
+    /*text-align: center;*/
+}
+
+
+.headerBottom {
+    margin-top: 80px;
+    padding: 0px 0px;
+    
+}
+
+    .headerBottom p, .headerBottom a {
+        float: right;
+        margin: 0px 40px;
+        border: #038C8C 3px solid;
+        padding: 10px;
+    }
+
+
+#pic {
+    width: 520px;
+    height: 400px;
+    float: left;
+    margin: 30px 0px;
+}
+
+
+form {
+    margin: 85px;
+    clear: both;
+    padding: 30px;
+    background-color: #038C8C;
+}
+
+    form label {
+        float: right;
+        margin: 30px;
+        font-size: 20px;
+
+    }
+
+        form input {
+            display: block;
+            width: 200px;
+            height: 30px;
+            font-size: 20px;
+        }
+
+.advertising {
+       font-size: 20px;
+    margin:0px;
+}
+
+#advertising {
+    display: inline-block;
+    width: 60px;
+    margin-right: 15px;
+}
+
+#sendForm {
+    margin: 15px auto;
+    clear: both;
+    font-size: xx-large;
+    height: 50px;
+}
+
+section > p {
+    font-size: 17px;
+    margin: 15px 0px;
+}
+
+b {
+    font-size: 20px;
+    color:blue;
+}
+
+.youTube {
+
+position: absolute;
+right: 350px;
+
+}

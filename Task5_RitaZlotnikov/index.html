@@ -1,0 +1,95 @@
+﻿<!doctype html>
+<html lang="he" >
+<head>
+    <meta charset="utf-8" />
+    <title>טכנולוגיות למידה - דף נחיתה</title>
+    <meta name="description" content=" תואר ראשון בטכנולוגיות למידה, במכון הטכנולוגי חולון." />
+    <meta name="keywords" content="landing_page, HIT, דף נחיתה, המכון הטכנולוגי חולון,טכנולוגיות למידה, הרשמה" />
+    <meta name="author" content="Rita Zlotnikov" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    
+    <!-- CSS -->
+    <link href="styles/reset.css" rel="stylesheet" />
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <script src="https://webdevelopmentcourse.github.io/contactUs/WebDevelopmentCourse/jScripts/contactUs.js"
+            type="text/javascript"></script>
+</head>
+<body>
+    <div id="container">
+        <article>
+
+            <header>
+                <img id="logo" src="img/logo50.png" />
+                <p> בואו ללמוד בתואר שישאיר את כולם מעוניינים... </p>
+                <h1> בפקולטה <span> לטכנולוגיות למידה!</span>   </h1>
+                <div class="headerBottom">
+                    <a href="#jumpTo">רוצה לקרוא עוד?</a>
+                    <a href="#name"> להשארת פרטים</a>
+</div>
+            </header>
+            
+            <img id="pic" src="img/2IMG_6862.jpg" />
+
+            <form >
+                <input type="hidden" id="myEmail" name="name" value="ritzlot@gmail.com">
+
+                <label for="name">
+                    הכנס את שמך:
+                    <input type="text" id="name" placeholder="שם מלא" />
+                </label>
+
+                <label for="phone">
+                    הכנס מספר הטלפון:
+                    <input type="text" id="phone" placeholder="נייד" />
+                </label>
+
+                <label for="mailAdd">
+                    הכנס כתובת דוא"ל:
+                    <input type="text" id="mailAdd" placeholder="דואר אלקטרוני" />
+                </label>
+
+
+                <label class="advertising" for="advertising">
+                    <input type="checkbox" id="advertising" />
+                    אני מסכים לדואר פרסומי
+                </label>
+
+                <input type="submit" id="sendForm" value="שלח" />
+                <div id="feedback"></div>
+            </form>
+
+            <section>
+                <h2 id="jumpTo">  קצת על התחום  </h2>
+                <p>
+                    תואר מגוון ומעניין שכולל: <br />
+                    תכנות, הדרכה, פסיכולוגיה, עיצוב, ועוד הרבה דברים שיהפכו אותך למפתח הדרכה נחשק!
+
+                </p>
+                <p>
+                    תלמד להשתמש בתוכנות אדובי הכרחיות כמו:
+                                                           <b>   photoshop,   Illustrator,   Animate</b>
+
+                </p>
+                <p>
+                    תחשפו לשפות תכנות שימושיות כמו: 
+                                                    <b> CSS,   HTML,   JS</b>
+
+                </p>
+                <p>
+                    ועוד ועוד ועוד!
+                </p>
+
+                <div class="youTube">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/19BE3Qu_0n4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </section>
+
+
+        </article>
+    </div>
+</body>
+</html>
